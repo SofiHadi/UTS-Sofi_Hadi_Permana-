@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 40px;
+}
+
+h2 { color: #333; }
+
+/* Styling Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th { background-color: #007bff; color: white; }
+tr:hover { background-color: #f1f1f1; }
+
+/* Styling Tombol */
+.btn-tambah {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-edit { color: #ffc107; text-decoration: none; font-weight: bold; }
+.btn-hapus { color: #dc3545; text-decoration: none; font-weight: bold; }
